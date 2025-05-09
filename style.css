@@ -1,6 +1,4 @@
 body{
-    height: 100%;
-    width: 100%;
     background-color: pink;
     color: rgb(60, 60, 60);
     text-align: center;
@@ -29,6 +27,7 @@ button{
     background-color: rgb(255, 130, 130);
     border-radius: 5px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 button:hover{
@@ -42,6 +41,7 @@ img{
     border-radius: 50%;
     object-fit: contain;
     display: none;
+    cursor: pointer;
 }
 
 img:hover{
